@@ -1,5 +1,0 @@
-# Created at 2026-05-09T10:55:48.010
-Boot Manifest-JAR contains absolute paths in classpath 'e:\Github\Hamburgueria\hamburgueria\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

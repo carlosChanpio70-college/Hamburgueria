@@ -22,6 +22,22 @@ public class PedidoCaretaker {
         return momentos.get(indice);
     }
 
+    public boolean removerMomento(int indice) {
+        if (indice < 0 || indice >= momentos.size()) {
+            return false;
+        }
+        momentos.remove(indice);
+        return true;
+    }
+
+    public void limparMomentos() {
+        momentos.clear();
+    }
+
+    public int getTotalMomentos() {
+        return momentos.size();
+    }
+
     public List<PedidoMomento> getMomentos() {
         return Collections.unmodifiableList(momentos);
     }

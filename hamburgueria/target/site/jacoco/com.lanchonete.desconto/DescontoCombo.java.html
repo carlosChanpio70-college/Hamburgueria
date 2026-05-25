@@ -14,7 +14,7 @@ public class DescontoCombo extends DescontoHandler {
 <span class="fc bfc" id="L14" title="All 2 branches covered.">        if (p.getLanches().size() &gt;= 2) {</span>
 <span class="fc" id="L15">            return p.calcularTotal() * TAXA_DESCONTO;</span>
         }
-<span class="pc bpc" id="L17" title="1 of 2 branches missed.">        return proximo != null ? proximo.calcularDesconto(p) : 0.0;</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        return proximo != null ? proximo.calcularDesconto(p) : 0.0;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

@@ -45,6 +45,13 @@ public class RelatorioCozinhaVisitor implements LancheVisitor {
     }
 
     public String getRelatorio() {
-        return relatorio.toString().trim();
+        String resultado = relatorio.toString().trim();
+        ignoreNested = false; // Reset para permitir reutilização
+        return resultado;
+    }
+
+    public void reset() {
+        relatorio.setLength(0);
+        ignoreNested = false;
     }
 }

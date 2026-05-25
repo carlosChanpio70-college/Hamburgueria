@@ -10,5 +10,9 @@ public abstract class DescontoHandler {
         this.proximo = proximo;
     }
 
+    public DescontoHandler getProximo() {
+        return proximo;
+    }
+
     public abstract double calcularDesconto(Pedido p);
 }
