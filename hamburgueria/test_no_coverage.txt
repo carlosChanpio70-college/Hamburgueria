@@ -1,9 +1,0 @@
-🚀 Pedido saindo para entrega...
-🚀 Pedido saindo para entrega...
-✅ Pedido entregue com sucesso!
-[DELIVERY] Pedido em rota de entrega! Total: R$ 15.00 + Taxa: R$ 8.00 = R$ 23.00
-[DELIVERY] Itens: Hambúrguer
-[DRIVE-THROUGH] Pedido pronto para retirada na janela! Total: R$ 15.00
-[DRIVE-THROUGH] Itens: Hambúrguer
-[LOJA] Pedido pronto para retirada no balcão! Total: R$ 15.00
-[LOJA] Itens: Hambúrguer
